@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Stay | Vicky Suites & Lodge</title>
+<meta name="description" content="Vicky Suites and Lodge — Home of Peace and Luxury. Comfortable rooms, warm hospitality and convenient stays.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="">
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Vicky Suites and Lodge home">
+      <img src="images/logo.jpg" alt="Vicky Suites and Lodge logo">
+      <span><strong>VICKY SUITES</strong><small>AND LODGE</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="booking.html">Book a stay</a>
+    </nav>
+    <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Open menu">☰</button>
+  </div>
+  <div class="mobile-menu" data-mobile-menu>
+    <a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="booking.html">Book a stay</a>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero"><div class="container page-title"><p class="eyebrow">Reservations</p><h1>Make your stay official.</h1><p>Send a booking request with your preferred dates and room. We'll continue the confirmation with you directly.</p></div></section>
+<section class="section" style="padding-top:40px"><div class="container form-shell"><form id="booking-form" class="form-panel">
+  <h2>Booking details</h2>
+  <div class="form-grid">
+    <div class="field full"><label>Room</label><select name="room" required></select></div>
+    <div class="field"><label>Check in</label><input type="date" name="checkIn" required></div>
+    <div class="field"><label>Check out</label><input type="date" name="checkOut" required></div>
+    <div class="field"><label>Guests</label><select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></div>
+    <div class="field"><label>Full name</label><input type="text" name="guestName" required placeholder="Your full name"></div>
+    <div class="field"><label>Email address</label><input type="email" name="guestEmail" required placeholder="you@example.com"></div>
+    <div class="field"><label>Phone / WhatsApp</label><input type="tel" name="guestPhone" required placeholder="+234..."></div>
+    <div class="field full"><label>Special request <span style="font-weight:400">(optional)</span></label><textarea name="specialRequest" rows="4" placeholder="Airport pickup, celebration, accessibility request, etc."></textarea></div>
+  </div>
+  <div class="booking-total"><span>Estimated stay</span><strong data-booking-total>Select valid dates</strong></div>
+  <button class="button button--full" type="submit">Continue via WhatsApp</button>
+  <p style="font-size:11px;color:var(--muted);text-align:center;margin-bottom:0">Your request will be saved securely as a pending reservation, then you can continue the conversation on WhatsApp.</p>
+</form></div></section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Vicky Suites & Lodge</div>
+        <p data-hotel-tagline>Home of Peace and Luxury</p>
+        <p data-hotel-description>A refined stay designed around comfort, calm and warm Nigerian hospitality.</p>
+      </div>
+      <div><div class="footer-title">Explore</div><p><a href="rooms.html">Rooms & suites</a></p><p><a href="about.html">About us</a></p><p><a href="contact.html">Contact</a></p></div>
+      <div><div class="footer-title">Reservations</div><p><a data-hotel-phone href="tel:+2348127486877">+234 812 748 6877</a></p><p><a data-hotel-whatsapp href="https://wa.me/2349060133921">WhatsApp us</a></p><p><a data-hotel-email href="mailto:reservations@vickysuites.com">reservations@vickysuites.com</a></p></div>
+      <div><div class="footer-title">Stay with us</div><p data-hotel-address>Nigeria</p><p>24/7 reception</p><p>Complimentary Wi-Fi</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Vicky Suites & Lodge. All rights reserved.</span><span>Hospitality · Comfort · Luxury</span></div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
